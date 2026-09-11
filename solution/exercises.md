@@ -83,7 +83,14 @@ Chọn một đoạn văn tiếng Việt ~100 từ. So sánh số token theo `co
 
 **Hai con số chênh nhau bao nhiêu phần trăm? Vì sao tiếng Việt thường tốn
 nhiều token hơn tiếng Anh cùng độ dài?**
-- **Số liệu (Đoạn trích Truyện Kiều - 122 từ):**
+- **Đoạn trích sử dụng:**
+```txt
+Có thuyết nói Nguyễn Du viết Truyện Kiều sau khi đi sứ Trung Quốc (1814–1820). Lại có thuyết nói ông viết trước khi đi sứ, có thể vào khoảng cuối thời Lê đầu thời Tây Sơn.Thuyết sau được nhiều người chấp nhận hơn.Ngay sau khi ra đời, Truyện Kiều được nhiều nơi khắc in và lưu hành rộng rãi. Hai bản in xưa nhất hiện còn là bản của Liễu Văn Đường (1871) và bản của Duy Minh Thị (1872), đều ở thời vua Tự Đức.
+
+Truyện dựa theo cốt truyện văn xuôi Kim Vân Kiều của Thanh Tâm Tài Nhân, lấy bối cảnh Trung Quốc thời vua Gia Tĩnh Đế đời nhà Minh (từ năm 1521 tới năm 1567).
+```
+
+- **Số liệu (Đoạn trích từ Wikipedia Truyện Kiều - 122 từ):**
   - Ước lượng Part 1 ($\text{số từ} / 0.75$): **162.7 tokens**
   - Đo thực tế bằng tiktoken: **568 tokens** (đạt tỷ lệ **4.66 tokens/từ**)
   - **Độ chênh lệch:** Số token thực tế cao hơn ước lượng **249.2%** (gấp gần 3.5 lần).
